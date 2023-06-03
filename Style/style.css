@@ -87,6 +87,7 @@ h2 {
 }
 
 .segundo {
+
     background: #4bcaff;
     display: grid;
     grid-template-columns: 10% 20% 20% 20% 20% 10%;
@@ -503,16 +504,64 @@ p{
     height: 100%;
 }
 }
+@media (max-width: 500px) {
+  li{
+    width: 100px;
+   padding: 0;
+  }
+  li:hover{
+    height: 15px;
+  }
+  .seccion2{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  .ds{
+    width: 97%;
+  }
+  a{
+font-size: 10px;
+  }
+  .tercero{
+    height: 750px;
+  }
+  .segundo{
+    height: 600px;
+  }
+  .menub{
+   flex-direction: column;
+    height: 300px;
+  }
+  .img1, .img2, .img3, .img4,.img5, .img6, .img7, .img8{
+    width: 100px;
+    height: 100px;
+}
+.cuarto{
+    height: 600px;
+}
+.quinto{
+    height: 250px;
+}
+.blanco{
+    font-size: 15px;
+}
+.seccionDos{
+    grid-template-rows: 10% 60% 30%;
+}
+}
 @media (max-width: 480px) {
-    .img1, .img2, .img3, .img4,.img5, .img6, .img7, .img8{
-        width: 80px;
-        height: 80px;
-    }
+ 
     .cuarto{
         height: 100%;
         flex-direction: column;
     }
-  
+    .img1, .img2, .img3, .img4,.img5, .img6, .img7, .img8{
+        width: 80px;
+        height: 80px;
+    }
+   
     .derecho{
         height: 50vh;
         width: 100%;
