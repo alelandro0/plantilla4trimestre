@@ -680,7 +680,7 @@ p{
         width: 200px;
     }
     .sexto{
-        height: 700px;
+        height: 800px;
     }
     .segundo{
         height: 800px;
@@ -702,5 +702,10 @@ p{
         color: black;
         height: 200px;
     }
-
+ .arr{
+    height: 100%;
+ }
+ .seccionDos{
+    grid-template-rows: 35% 35% 30%;
+ }
 }
